@@ -1,0 +1,22 @@
+[
+  {
+    "maVe": "V001",
+    "soHieuChuyenBay": "VN123",
+    "diemDi": "Hà Nội",
+    "diemDen": "TP.HCM",
+    "thoiGianDi": "2025-07-27 08:00",
+    "thoiGianDen": "2025-07-27 10:00",
+    "hangVe": "Phổ thông",
+    "giaVe": 1500000
+  },
+  {
+    "maVe": "V002",
+    "soHieuChuyenBay": "VN456",
+    "diemDi": "Đà Nẵng",
+    "diemDen": "Hà Nội",
+    "thoiGianDi": "2024-06-02 09:00",
+    "thoiGianDen": "2024-06-02 11:00",
+    "hangVe": "Thương gia",
+    "giaVe": 2500000
+  }
+]

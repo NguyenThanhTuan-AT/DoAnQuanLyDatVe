@@ -1,0 +1,14 @@
+[
+  {
+    "maHang": "HVN",
+    "tenHang": "Vietnam Airlines",
+    "soLuongMayBay": 50,
+    "danhSachMayBay": ["VN-A123", "VN-A456"]
+  },
+  {
+    "maHang": "VJ",
+    "tenHang": "VietJet Air",
+    "soLuongMayBay": 30,
+    "danhSachMayBay": ["VJ-B789", "VJ-B012"]
+  }
+]
