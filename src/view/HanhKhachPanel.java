@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
-import model.hanhKhach;
+import model.HanhKhach;
 
 public class HanhKhachPanel extends JPanel {
 
@@ -35,12 +35,12 @@ public class HanhKhachPanel extends JPanel {
                     .registerTypeAdapter(LocalDateTime.class, new LocalDateTimeAdapter())
                     .create();
             FileReader reader = new FileReader(filePath);
-            List<hanhKhach> dataList = gson.fromJson(reader, new TypeToken<List<hanhKhach>>() {
+            List<HanhKhach> dataList = gson.fromJson(reader, new TypeToken<List<HanhKhach>>() {
             }.getType());
             reader.close();
 
             tableModel.setRowCount(0);
-            for (hanhKhach item : dataList) {
+            for (HanhKhach item : dataList) {
                 Object[] row = {
                     item.getCccd(), item.getHoTen(), item.getMaVe()
                 };

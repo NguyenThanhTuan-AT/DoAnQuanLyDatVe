@@ -2,17 +2,17 @@ package model;
 
 import java.util.List;
 
-public class hangHangKhong {
+public class HangHangKhong {
 
     private String maHang;
     private String tenHang;
     private int soLuongMayBay;
     private List<String> danhSachMayBay;   //theo so lieu;
 
-    public hangHangKhong() {
+    public HangHangKhong() {
     }
 
-    public hangHangKhong(String maHang, String tenHang, int soLuongMayBay, List<String> danhSachMayBay) {
+    public HangHangKhong(String maHang, String tenHang, int soLuongMayBay, List<String> danhSachMayBay) {
         this.maHang = maHang;
         this.tenHang = tenHang;
         this.soLuongMayBay = soLuongMayBay;

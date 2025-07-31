@@ -10,7 +10,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.List;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
-import model.veMayBay;
+import model.VeMayBay;
 
 public class VeMayBayPanel extends JPanel {
 
@@ -36,12 +36,12 @@ public class VeMayBayPanel extends JPanel {
                     .registerTypeAdapter(LocalDateTime.class, new LocalDateTimeAdapter())
                     .create();
             FileReader reader = new FileReader(filePath);
-            List<veMayBay> dataList = gson.fromJson(reader, new TypeToken<List<veMayBay>>() {
+            List<VeMayBay> dataList = gson.fromJson(reader, new TypeToken<List<VeMayBay>>() {
             }.getType());
             reader.close();
 
             tableModel.setRowCount(0);
-            for (veMayBay item : dataList) {
+            for (VeMayBay item : dataList) {
                 Object[] row = {
                     item.getMaVe(), item.getSoHieuChuyenBay(), item.getDiemDi(), item.getDiemDen(), item.getThoiGianDi().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm")),
                     item.getThoiGianDen().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm")), item.getHangVe(), item.getGiaVe()

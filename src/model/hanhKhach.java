@@ -1,15 +1,15 @@
 package model;
 
-public class hanhKhach {
+public class HanhKhach {
 
     private String cccd;
     private String hoTen;
     private String maVe;
 
-    public hanhKhach() {
+    public HanhKhach() {
     }
 
-    public hanhKhach(String cccd, String hoTen, String maVe) {
+    public HanhKhach(String cccd, String hoTen, String maVe) {
         this.cccd = cccd;
         this.hoTen = hoTen;
         this.maVe = maVe;

@@ -2,7 +2,7 @@ package model;
 
 import java.time.LocalDateTime;
 
-public class chuyenBay {
+public class ChuyenBay {
 
     private String soHieuChuyenBay;
     private String soHieuMayBay;
@@ -14,10 +14,10 @@ public class chuyenBay {
     private int soPhoThong;
     private int soVeDaBan;
 
-    public chuyenBay() {
+    public ChuyenBay() {
     }
 
-    public chuyenBay(String soHieuChuyenBay, String soHieuMayBay, String diemDi, String diemDen, LocalDateTime thoiGianDi, LocalDateTime thoiGianDen, int soThuongGia, int soPhoThong, int soVeDaBan) {
+    public ChuyenBay(String soHieuChuyenBay, String soHieuMayBay, String diemDi, String diemDen, LocalDateTime thoiGianDi, LocalDateTime thoiGianDen, int soThuongGia, int soPhoThong, int soVeDaBan) {
         this.soHieuChuyenBay = soHieuChuyenBay;
         this.soHieuMayBay = soHieuMayBay;
         this.diemDi = diemDi;

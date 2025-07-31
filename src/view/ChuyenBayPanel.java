@@ -10,7 +10,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.List;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
-import model.chuyenBay;
+import model.ChuyenBay;
 
 public class ChuyenBayPanel extends JPanel {
 
@@ -36,12 +36,12 @@ public class ChuyenBayPanel extends JPanel {
                     .registerTypeAdapter(LocalDateTime.class, new LocalDateTimeAdapter())
                     .create();
             FileReader reader = new FileReader(filePath);
-            List<chuyenBay> dataList = gson.fromJson(reader, new TypeToken<List<chuyenBay>>() {
+            List<ChuyenBay> dataList = gson.fromJson(reader, new TypeToken<List<ChuyenBay>>() {
             }.getType());
             reader.close();
 
             tableModel.setRowCount(0);
-            for (chuyenBay item : dataList) {
+            for (ChuyenBay item : dataList) {
                 Object[] row = {
                     item.getSoHieuChuyenBay(), item.getSoHieuMayBay(), item.getThoiGianDi().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm")),
                     item.getThoiGianDen().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm")), item.getSoThuongGia(), item.getSoPhoThong(), item.getSoVeDaBan()
