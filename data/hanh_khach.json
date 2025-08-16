@@ -1,12 +1,7 @@
 [
   {
-    "cccd": "012345678901",
-    "hoTen": "Nguyễn Văn A",
-    "maVe": "V001"
-  },
-  {
-    "cccd": "098765432109",
-    "hoTen": "Trần Thị B",
-    "maVe": "V002"
+    "cccd": "123456789",
+    "hoTen": "Nguyen Van A",
+    "maVe": "VE001"
   }
 ]

@@ -1,24 +1,13 @@
 [
   {
     "soHieuChuyenBay": "VN123",
-    "soHieuMayBay": "VN-A123",
-    "diemDi": "Hà Nội",
-    "diemDen": "TP.HCM",
-    "thoiGianDi": "2024-06-01 08:00",
-    "thoiGianDen": "2024-06-01 10:00",
+    "soHieuMayBay": "MB001",
+    "diemDi": "Hanoi",
+    "diemDen": "Ho Chi Minh",
+    "thoiGianDi": "2025-08-16 08:00",
+    "thoiGianDen": "2025-08-16 10:00",
     "soThuongGia": 20,
     "soPhoThong": 100,
-    "soVeDaBan": 50
-  },
-  {
-    "soHieuChuyenBay": "VN456",
-    "soHieuMayBay": "VN-A456",
-    "diemDi": "Đà Nẵng",
-    "diemDen": "Hà Nội",
-    "thoiGianDi": "2024-06-02 09:00",
-    "thoiGianDen": "2024-06-02 11:00",
-    "soThuongGia": 10,
-    "soPhoThong": 80,
-    "soVeDaBan": 30
+    "soVeDaBan": 0
   }
 ]
